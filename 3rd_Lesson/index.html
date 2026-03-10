@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Lesson</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px black solid;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <!-- table -->
+    <table>
+        <caption>Table's Main Title</caption>
+        <tr>
+            <th>Numbers</th>
+            <th>Name of the product</th>
+            <th>Quantitiy</th>
+            <th>Prices</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>eggs</td>
+            <td>12</td>
+            <td>12.4$</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>pizza</td>
+            <td>1</td>
+            <td>5.9$</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>spinich</td>
+            <td>4</td>
+            <td>8.4$</td>
+        </tr>
+    </table>
+
+    <!-- rowspan, colspan -->
+    <!-- rowspan is horizantal, colspan is vertical -->
+    <table>
+        <col style="width: 80px;">
+        <colgroup span="2" style="width: 150px;"></colgroup>
+        <col style="width: 100px;">
+        <caption>idk this is duplicated one
+        <tr>
+            <th>title context 1</th>
+            <td>context1</td>
+            <td>context2</td>
+            <td rowspan="2">context3 <br> rowspaned</td>
+        </tr>
+        <tr>
+            <th>title context 2</th>
+            <td>context1</td>
+            <td>context2</td>
+            <!-- <td>context3</td> -->
+        </tr>
+        <tr>
+            <th>title context 3</th>
+            <td colspan="3">context3 colspaned</td>
+        </tr>
+        </caption>
+    </table>
+
+    <!-- scope? -> it defines the title cell's size -->
+    <!-- if already combined? -> colg, rowg -->
+    <br>
+    <table>
+        <tr>
+            <th scope="col">Insert</th>
+            <th scope="col">Midterm exam</th>
+            <th scope="col">Final exam</th>
+        </tr>
+        <tr>
+            <th scope="row">Math</th>
+            <td>100</td>
+            <td>60</td>
+        </tr>
+        <tr scope="row">
+            <th>Eng</th>
+            <td>70</td>
+            <td>100</td>
+        </tr>
+    </table>
+</body>
+
+</html>
