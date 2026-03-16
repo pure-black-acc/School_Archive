@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th Lesson</title>
+</head>
+
+<body>
+    <!-- label -->
+    <!-- Label is almost always used with form tags when naming the Tags -->
+    <label>
+        Id: <input type="text" name="">
+    </label>
+
+    <!-- explict method -->
+    <label for="userpw">Pw</label>
+    <input type="password" id="userpw">
+
+    <!-- mix -->
+    <label for="userpw1">
+        <input type="password" name="" id="userpw1">
+    </label>
+
+    <!-- fieldset/Legend tags -->
+    <form action="">
+        <fieldset>
+            <p>
+                <label for="userid">ID</label>
+                <input type="text" id="userid">
+            </p>
+            <p>
+                <label for="userpw">Pw</label>
+                <input type="password" id="Pw">
+            </p>
+        </fieldset>
+
+        <!-- w.legend -->
+        <fieldset>
+            <legend>heh</legend>
+            <p>
+                <label for="age">Age</label>
+                <input type="number" name="" id="age">
+            </p>
+            <p>
+                <label for="recommender">recommender</label>
+                <input type="text" name="" id="recommender">
+            </p>
+        </fieldset>
+    </form>
+    <!-- textarea -->
+    <!-- this tag is used when several lines of text needs to be typed -->
+    <form action="">
+        <fieldset>
+            <legend>Blog</legend>
+            <p>
+                <label for="">제목</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="contents">내용</label>
+                <textarea name="" id="contents"></textarea>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
