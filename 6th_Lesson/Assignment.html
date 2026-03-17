@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6th_Lesson</title>
+</head>
+<style>
+    body {
+        background-color: lightgray;
+        display: flex;
+    }
+
+    .main {
+        margin: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 800px;
+        height: 500px;
+        border-radius: 25px;
+    }
+
+    .idk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <p style="justify-content: center; display: flex; font-weight: bold;">Delivery</p>
+        <div class="idk">
+            <select name="city" id="city">
+                <option value="경기도">경기도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="충청북도">충청북도</option>
+            </select>
+            <select name="city" id="city">
+                <optgroup label="경기도">
+                    <option value="고양시">고양시</option>
+                    <option value="안산시">안산시</option>
+                    <option value="수원시">수원시</option>
+                </optgroup>
+                <optgroup label="충청남도">
+                    <option value="천안시">천안시</option>
+                    <option value="아산시">아산시</option>
+                    <option value="서산시">서산시</option>
+                </optgroup>
+            </select>
+            <select name="city" id="city">
+                <optgroup label="고양시">
+                    <option value="일산동">일산동</option>
+                    <option value="마두동">마두동</option>
+                    <option value="장항동">장항동</option>
+                </optgroup>
+                <optgroup label="수원시">
+                    <option value="영통동">영통동</option>
+                    <option value="메탄동">메탄동</option>
+                    <option value="망포동">망포동</option>
+                </optgroup>
+            </select>
+        </div>
+        <div class="idk">
+            <label for="detailed">detailed address: </label>
+            <input type="text">
+        </div>
+        <div class="idk">
+            <textarea name="policy" id="" readonly style="width: 500px; height: 300px;">
+                Return and Refund Policy
+                Products that have been opened but remain unassembled and unused may be returned within 365 days from the date of purchase. Depending on the product condition, the refund amount may be subject to a deduction and issued as a refund card.
+
+                “Opened but unused” means the product has not been assembled and shows no signs of use, including stains, scratches, or other damage. All tags, product descriptions, and mandatory information labels must remain attached.
+
+                If the product has been assembled but is still in a resalable condition, the Buyback Service may be available.
+
+                When using the Buyback Service, the refund amount will be determined based on the product condition and issued as a refund card.
+
+                Eligibility for the Buyback Service varies by product. Please refer to the Buyback Service page for detailed information.
+            </textarea>
+        </div>
+        <div class="idk">
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+    </div>
+</body>
+
+</html>
