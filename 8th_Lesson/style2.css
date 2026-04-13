@@ -1,0 +1,25 @@
+.container {
+    border: 1px solid orange;
+    margin: 10px;
+    padding: 5px;
+}
+
+.bg {
+    display: inline;
+    background-color: orange;
+}
+
+h1 {
+    color: white;
+}
+
+.italic {
+    font-style: italic;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    margin-top: 5px;
+    display: block;
+}

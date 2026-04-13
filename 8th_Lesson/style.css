@@ -1,0 +1,27 @@
+/* how to write css */
+/* class/Id selector {
+    option
+    option
+    ...
+} */
+
+/* h1 {
+    font-size: 100px;
+    font-weight: 200;
+    color: aquamarine;
+    padding: auto;
+} */
+
+.idk_f {
+    border: 1px dotted black;
+}
+
+.bg {
+    background-color: aqua;
+}
+
+#container {
+    width: 500px;
+    margin: auto;
+    padding: auto5;
+}
