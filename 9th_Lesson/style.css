@@ -1,0 +1,48 @@
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.duh {
+    font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(173, 216, 230, 0.3);
+}
+
+/* p {
+    line-height: 40px;
+    text-decoration: line-through;
+} */
+
+#sh {
+    text-shadow: 5px 5px 1px rgba(240, 128, 128, 0.3);
+}
+
+#sp {
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
+}
+
+.lis {
+    list-style-type: circle;
+}
+
+
+.liso {
+    list-style-type: lower-roman;
+}
+
+.li2 {
+    list-style: none;
+}
+
+.li {
+    border: 1px solid black;
+    width: 70px;
+    padding: 20px, 40px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
