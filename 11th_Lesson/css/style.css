@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    margin: 0px 20px;
+    border: 1px solid #000;
+}
+
+#git {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-right: 10px;
+}

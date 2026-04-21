@@ -1,0 +1,44 @@
+.pos1 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 200px;
+    height: auto;
+}
+
+.pos2 {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    width: 200px;
+    height: auto;
+}
+
+.pos3 {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    width: 200px;
+    height: auto;
+}
+
+
+
+p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 0 rgb(118, 79, 79);
+    right: 100px;
+    bottom: 100px;
+}
+
+img {
+    position: relative;
+}
+
+#container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: url(../github-enterprise-advanced-security.jpg);
+}
