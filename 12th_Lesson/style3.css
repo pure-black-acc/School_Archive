@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+
+section {
+    width: 600px;
+    margin: 20px auto;
+}
+
+p {
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    line-height: 2;
+}
+
+/* this css will apply to all p tags which
+ are section tag's child tag */
+
+/* section p {
+    color: beige;
+} */
+
+
+
+/* this css will apply to all p tags which
+ are section tag's child tag 
+ BUT ONLY IF THE P TAGS ARE DIRECTLY CHILD TAG*/
+
+/* section>p {
+    color: blue;
+} */
+
+/* the cloest p tag near h1 tag will be applied */
+
+/* h1+p {
+    background-color: black;
+    color: white;
+} */
+
+h1~p {
+    background-color: black;
+    color: white;
+}

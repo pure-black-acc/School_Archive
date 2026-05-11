@@ -1,0 +1,28 @@
+.grad1 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to right bottom, blue, white);
+}
+
+.grad2 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, blue, white 30%, lightblue);
+}
+
+.grad3 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: repeating-linear-gradient(lightblue, lightblue 20px, lightcoral 20px, lightcoral 40px)
+}
+
+.grad4 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: repeating-radial-gradient(circle, white, white 10%, black 10%, black 20%);
+}
