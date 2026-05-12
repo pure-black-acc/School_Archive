@@ -1,0 +1,68 @@
+ul {
+    list-style: none;
+}
+
+li {
+    width: 120px;
+    display: inline-block;
+    margin: 10px;
+}
+
+li a {
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* only target a tags that has href */
+/* a[href] {
+    background: yellow;
+    border: 1px solid grey;
+    font-weight: normal;
+
+} */
+
+/* a[target=_blank] {
+    background: yellow;
+    border: 1px solid grey;
+    font-weight: normal;
+
+} */
+
+/* with ~ will target all classes that has "button", 
+but if not, it will only target the tags with only "button" target. */
+/* a[class~=button] {
+    background: yellow;
+    border: 1px solid grey;
+    font-weight: normal;
+} */
+
+/* target all tags with 'button' class or 'button-%' classes */
+/* a[class|=button] {
+    background: yellow;
+    border: 1px solid grey;
+    font-weight: normal;
+} */
+
+/* target the class that starts with 'bu' */
+/* a[class^=bu] {
+    background: yellow;
+    border: 1px solid grey;
+    font-weight: normal;
+} */
+
+/* target all class that has the word/character: 'tt' */
+a[class*=tt] {
+    background: yellow;
+    border: 1px solid grey;
+    font-weight: normal;
+}
+
+/* [attribute]
+[attribute = value]
+[attribute ~= value]
+[attribute |= value]
+[attribute ^= value]
+[attribute $= value]
+[attribute *= value] */

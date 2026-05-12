@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navi">
+            <ul>
+                <li><a href="#intro">usage guide</a></li>
+                <li><a href="#room">room showcase</a></li>
+                <li><a href="#reservation">how to reserve/prices</a></li>
+                <li><a href="#">reserve</a></li>
+            </ul>
+        </nav>
+
+        <form action="" id="signup">
+            <fieldset>
+                <legend>personal info</legend>
+                <ul>
+                    <li>
+                        <label for="fullname">name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </li>
+                    <li>
+                        <label for="tel"> contact</label>
+                        <input type="tel" name="tel" id="tel">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>personal info</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="room" id="basic">
+                        <label for="basic">basic(maximum 2ppl)</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="room" id="family">
+                        <label for="family">family sized(maximum 8ppl)</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
